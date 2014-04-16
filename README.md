@@ -4,6 +4,8 @@
 
 It utilizes [Gulp-KSS](https://github.com/philj/gulp-kss) and follows the [KSS-Node demo](https://github.com/hughsk/kss-node) but with sass instead of less
 
+[Live Demo](http://azanebrain.github.io/gulp-kss/)
+
 ## Instructions
 
 Clone the repo
