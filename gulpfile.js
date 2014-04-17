@@ -31,6 +31,10 @@ gulp.task('kss', function () {
 			// , require: ['compass']
 		}))
 		.pipe(gulp.dest( 'styleguide/public'));
+
+	//Add any styleguide images
+	gulp.src( 'demo/styleguide-images/**/*')
+		.pipe(gulp.dest( 'styleguide/'));
 });
 
 // Watch and livereload
